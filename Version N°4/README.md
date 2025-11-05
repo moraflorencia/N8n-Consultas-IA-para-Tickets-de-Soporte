@@ -4,11 +4,6 @@ Esta versión es una extensión directa de la V3. Habiendo resuelto la generaci�
 
 ![Versión 4 del flujo n8n](./Version4.png)
 
-### 🎥 Video Demo
-
-*(Acá el video de la V4, si tenés uno)*
-`[Ver video demo de la Versión 4](./Version4.mp4)`
-
 ### Arquitectura de la V4
 
 El flujo central hasta el nodo **"Convert to File"** es idéntico al de la Versión 3. La única modificación fue añadir una tercera rama de salida.
