@@ -10,7 +10,7 @@ Se observan los siguientes cambios y mejoras:
 
 1.  **Entrada del Webhook (POST):** Ahora el **Webhook** está configurado para manejar peticiones `POST`, lo que es más adecuado para recibir datos complejos (como una consulta en lenguaje natural) del frontend de Python.
 
-    ![Ejemplo de consulta al Webhook](./consulta.png)
+    ![Ejemplo de consulta al Webhook](./Consulta.png)
 
 
 2.  **Pre-procesamiento con "Code in JavaScript1" (NUEVO):** Se agregó un primer nodo **"Code in JavaScript1"** después del Webhook. Esto sugiere que se está realizando algún tipo de pre-procesamiento o validación de la entrada antes de enviarla al Agente de IA, lo que podría incluir:
