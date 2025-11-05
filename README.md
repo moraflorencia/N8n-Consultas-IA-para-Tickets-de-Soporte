@@ -2,7 +2,7 @@
 
 Este repositorio contiene el desarrollo del Proyecto Final "Consultas inteligentes con IA sobre una base de datos empresarial" , realizado para el **Centro Pescar ARTECH 2025**.
 
-El proyecto se enfoca en ** Seguimiento de Tickets de Soporte**. El objetivo es un sistema que permite a un usuario realizar consultas en lenguaje natural a una base de datos de tickets de soporte técnico, utilizando una consola de Python, un flujo de n8n y el modelo de IA Gemini.
+El proyecto se enfoca en **Seguimiento de Tickets de Soporte**. El objetivo es un sistema que permite a un usuario realizar consultas en lenguaje natural a una base de datos de tickets de soporte técnico, utilizando una consola de Python, un flujo de n8n y el modelo de IA Gemini.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-1A1A1A?style=for-the-badge&logo=n8n&logoColor=white)
