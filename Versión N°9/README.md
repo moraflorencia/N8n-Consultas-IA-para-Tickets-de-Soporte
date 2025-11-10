@@ -4,7 +4,7 @@ Esta versión representa la evolución más significativa del proyecto hasta la 
 
 La lógica del backend en n8n se mantiene robusta, pero la nueva interfaz de React, llamada **"L.IA.M"**, proporciona una experiencia de chat profesional, con modos claro y oscuro, y una mejor legibilidad.
 
-![Versión 9 del flujo n8n](./Version9.png)
+![Versión 9 del flujo n8n](./Versión9.png)
 
 Se observan los siguientes cambios y mejoras:
 
