@@ -12,9 +12,11 @@ Se observan los siguientes cambios y mejoras:
     * Un diseño de chat moderno y profesional.
     * Funcionalidad nativa de **modo claro y modo oscuro** (como se ve en las capturas de pantalla).
     * Mayor control sobre el estado de la aplicación y la interacción del usuario.
-      
-    ![Claro](./ModoClaro.png)
+  
     ![Oscuro](./ModoOscuro.png)
+  
+    ![Claro](./ModoClaro.png)
+
   
 * **Solución de Error en Ruta de Guardado:** Se ha corregido el error persistente relacionado con la ruta de guardado de archivos. La rama de "Descarga Local" ahora funciona correctamente, guardando los archivos .xlsx en la ubicación deseada sin fallos, como se confirma en el mensaje del bot: "Informe descargado con éxito!".
 
