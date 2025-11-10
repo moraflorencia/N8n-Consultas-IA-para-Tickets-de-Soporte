@@ -85,7 +85,7 @@ El sistema es capaz de interpretar una variedad de solicitudes en lenguaje natur
   </tr>
   <tr>
     <td align="center"><b>Denise Gimenez</b></td>
-    <td align="center"><a href="https://github.com/"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white"/></a></td>
+    <td align="center"><a href="https://github.com/DeniseGz"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white"/></a></td>
     <td align="center"><a href="https://www.linkedin.com/in/denisegimenez/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a></td>
   </tr>
   <tr>
