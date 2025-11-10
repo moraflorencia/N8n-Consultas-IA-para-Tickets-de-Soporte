@@ -76,7 +76,7 @@ El sistema es capaz de interpretar una variedad de solicitudes en lenguaje natur
   </tr>
   <tr>
     <td align="center"><b>Maximiliano Encinas</b></td>
-    <td align="center"><a href="https://github.com/"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white"/></a></td>
+    <td align="center"><a href="https://github.com/mxencinas"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white"/></a></td>
     <td align="center"><a href="https://www.linkedin.com/in/maximiliano-encinas-1a441a223/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a></td>
   </tr>
     <td align="center"><b>Maria Monchot</b></td>
