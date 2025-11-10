@@ -21,10 +21,9 @@ Se observan los siguientes cambios y mejoras:
 
 #### Vistas del Sistema
 
-**Interfaz de Usuario (Streamlit)**
-![Interfaz de Streamlit](ChatBot.png)
-
 **Flujo de Backend (n8n)**
 ![Flujo de n8n V8](Versión8.png)
 
+**Interfaz de Usuario (Streamlit)**
+![Interfaz de Streamlit](ChatBot.png)
 ---
