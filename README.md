@@ -71,7 +71,7 @@ El sistema es capaz de interpretar una variedad de solicitudes en lenguaje natur
   </tr>
   <tr>
     <td align="center"><b>Florencia Mora</b></td>
-    <td align="center"><a href="https://github.com/"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white"/></a></td>
+    <td align="center"><a href="https://github.com/moraflorencia/"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white"/></a></td>
     <td align="center"><a href="https://linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a></td>
   </tr>
   <tr>
@@ -80,7 +80,7 @@ El sistema es capaz de interpretar una variedad de solicitudes en lenguaje natur
     <td align="center"><a href="https://linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a></td>
   </tr>
     <td align="center"><b>Maria Monchot</b></td>
-    <td align="center"><a href="https://github.com/"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white"/></a></td>
+    <td align="center"><a href="https://github.com/KateClysm/"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white"/></a></td>
     <td align="center"><a href="https://linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a></td>
   </tr>
   <tr>
@@ -90,7 +90,7 @@ El sistema es capaz de interpretar una variedad de solicitudes en lenguaje natur
   </tr>
   <tr>
     <td align="center"><b>Saúl Padilla</b></td>
-    <td align="center"><a href="https://github.com/"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white"/></a></td>
+    <td align="center"><a href="https://github.com/Saul1218"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white"/></a></td>
     <td align="center"><a href="https://linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a></td>
   </tr>
   <tr>
