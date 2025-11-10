@@ -72,26 +72,26 @@ El sistema es capaz de interpretar una variedad de solicitudes en lenguaje natur
   <tr>
     <td align="center"><b>Florencia Mora</b></td>
     <td align="center"><a href="https://github.com/moraflorencia/"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white"/></a></td>
-    <td align="center"><a href="https://linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/florm01/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a></td>
   </tr>
   <tr>
     <td align="center"><b>Maximiliano Encinas</b></td>
     <td align="center"><a href="https://github.com/"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white"/></a></td>
-    <td align="center"><a href="https://linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/maximiliano-encinas-1a441a223/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a></td>
   </tr>
     <td align="center"><b>Maria Monchot</b></td>
     <td align="center"><a href="https://github.com/KateClysm/"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white"/></a></td>
-    <td align="center"><a href="https://linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/maria-monchot/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a></td>
   </tr>
   <tr>
     <td align="center"><b>Denise Gimenez</b></td>
     <td align="center"><a href="https://github.com/"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white"/></a></td>
-    <td align="center"><a href="https://linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/denisegimenez/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a></td>
   </tr>
   <tr>
     <td align="center"><b>Saúl Padilla</b></td>
     <td align="center"><a href="https://github.com/Saul1218"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white"/></a></td>
-    <td align="center"><a href="https://linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/saul-padilla-/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white"/></a></td>
   </tr>
   <tr>
 </table>
