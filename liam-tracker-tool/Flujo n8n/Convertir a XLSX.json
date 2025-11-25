@@ -1,0 +1,82 @@
+{
+  "name": "Convertir a XLSX",
+  "nodes": [
+    {
+      "parameters": {
+        "inputSource": "passthrough"
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        -320,
+        -112
+      ],
+      "id": "593d4a7a-d7aa-4e3c-84d8-d141da6fa50c",
+      "name": "When Executed by Another Workflow"
+    },
+    {
+      "parameters": {
+        "jsCode": "return items.map(item => {\n  // Aquí se extraen 'accion' y 'formato_exportacion'\n  // 'rest' contendrá todo lo demás\n  const { accion, formato_exportacion, ...rest } = item.json;\n  \n  // Se devuelve el item solo con el 'rest'\n  return { json: rest };\n});\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -128,
+        -112
+      ],
+      "id": "2302018e-6785-4c11-b644-06b8261f4e23",
+      "name": "Code in JavaScript9"
+    },
+    {
+      "parameters": {
+        "operation": "xlsx",
+        "options": {
+          "fileName": "=Informe_{{$now}}"
+        }
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        80,
+        -112
+      ],
+      "id": "d4280930-2d3a-465f-8468-aaf898d853e6",
+      "name": "Convert to File6"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When Executed by Another Workflow": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript9",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript9": {
+      "main": [
+        [
+          {
+            "node": "Convert to File6",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "9632f37a-f995-4ba6-8622-ecc886dd1dfd",
+  "meta": {
+    "instanceId": "ba2409e6ef8aa4e86459027cdc2a2adec99173338384b549b5675cf1d2704fdd"
+  },
+  "id": "es7FRNImPCKfEiat",
+  "tags": []
+}
