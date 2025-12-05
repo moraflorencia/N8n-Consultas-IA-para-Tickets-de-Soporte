@@ -1,0 +1,79 @@
+{
+  "name": "Convertir a CSV",
+  "nodes": [
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        368,
+        0
+      ],
+      "id": "2ba43565-3834-4a84-83da-ffd1cdc8d777",
+      "name": "Convert to File4"
+    },
+    {
+      "parameters": {
+        "jsCode": "return items.map(item => {\n  // Aquí se extraen 'accion' y 'formato_exportacion'\n  // 'rest' contendrá todo lo demás\n  const { accion, formato_exportacion, ...rest } = item.json;\n  \n  // Se devuelve el item solo con el 'rest'\n  return { json: rest };\n});\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        176,
+        0
+      ],
+      "id": "4fa018ee-b55c-4350-9f67-38b11ff2e1d8",
+      "name": "Code in JavaScript6"
+    },
+    {
+      "parameters": {
+        "inputSource": "passthrough"
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "c0e367a9-8176-46c1-add4-cd4c2d7c31ac",
+      "name": "When Executed by Another Workflow"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Code in JavaScript6": {
+      "main": [
+        [
+          {
+            "node": "Convert to File4",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When Executed by Another Workflow": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript6",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "a82bcee5-bb6d-4647-b071-a51a80789fce",
+  "meta": {
+    "instanceId": "b5d785e76576cf2cb27dff7b20355d12ef454f4f0eba707d1719b49858205d8a"
+  },
+  "id": "DQeiVoxKHRSbYn7J",
+  "tags": []
+}

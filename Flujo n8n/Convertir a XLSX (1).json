@@ -1,0 +1,82 @@
+{
+  "name": "Convertir a XLSX",
+  "nodes": [
+    {
+      "parameters": {
+        "inputSource": "passthrough"
+      },
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "6dedc433-64a4-42e8-bbeb-48df6fb569fd",
+      "name": "When Executed by Another Workflow"
+    },
+    {
+      "parameters": {
+        "jsCode": "return items.map(item => {\n  // Aquí se extraen 'accion' y 'formato_exportacion'\n  // 'rest' contendrá todo lo demás\n  const { accion, formato_exportacion, ...rest } = item.json;\n  \n  // Se devuelve el item solo con el 'rest'\n  return { json: rest };\n});\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        192,
+        0
+      ],
+      "id": "6f375347-744f-4eaa-822f-a048e7fde06c",
+      "name": "Code in JavaScript9"
+    },
+    {
+      "parameters": {
+        "operation": "xlsx",
+        "options": {
+          "fileName": "=Informe_{{$now}}"
+        }
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        400,
+        0
+      ],
+      "id": "ab37b9a9-c422-4f41-a196-29e9f43ea34e",
+      "name": "Convert to File6"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When Executed by Another Workflow": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript9",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript9": {
+      "main": [
+        [
+          {
+            "node": "Convert to File6",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "67498301-2876-464a-bb24-2e50626b60d5",
+  "meta": {
+    "instanceId": "b5d785e76576cf2cb27dff7b20355d12ef454f4f0eba707d1719b49858205d8a"
+  },
+  "id": "4sfNy6UY87sJYn0A",
+  "tags": []
+}
